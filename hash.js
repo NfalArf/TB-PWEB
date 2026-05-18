@@ -1,6 +1,5 @@
 const bcrypt = require('bcryptjs');
 
-// Ganti teks di bawah dengan password yang ingin kamu jadikan hash
 const passwordManual = 'naufal'; 
 
 bcrypt.hash(passwordManual, 10, (err, hash) => {
